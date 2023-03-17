@@ -16,7 +16,7 @@
         {
             "type":"Microsoft.Web/sites",
             "apiVersion": "2022-03-01",
-            "name": "appservice-test001",
+            "name": "appservice-testhv001",
             "location": "[resourceGroup().location]",
             "dependsOn": [
                 "[resourceId('Microsoft.Web/serverfarms', 'appserviceplan-test')]"
