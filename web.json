@@ -7,7 +7,7 @@
         {
             "type":"Microsoft.Web/serverfarms",
             "apiVersion": "2022-03-01",
-            "name": "appserviceplan-test01",
+            "name": "appserviceplan-test",
             "location": "[resourceGroup().location]",
             "sku": {
                 "name": "S1"
@@ -16,7 +16,7 @@
         {
             "type":"Microsoft.Web/sites",
             "apiVersion": "2022-03-01",
-            "name": "appservice-test",
+            "name": "appservice-test001",
             "location": "[resourceGroup().location]",
             "dependsOn": [
                 "[resourceId('Microsoft.Web/serverfarms', 'appserviceplan-test')]"
